@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursiva;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+.texto{
+    font-weight: 800;
+    font-size: 1.8vw;
+    padding-top: 1.5vw;
+}
+.ttl{
+    font-weight: 800;
+    font-size: 2.8vw;
+    text-align: center;
+    padding-top: 5vw;
+    padding-bottom: 8vw;
+}
+.pgph{
+    font-weight: 800;
+    font-size: 1.6vw;
+    text-align: center;
+}
+.para{
+    font-weight: 800;
+    font-size: 1.6vw;
+    text-align: justify;
+    line-height: 3vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.ft{
+    width: 100%;
+    border-radius: 4px;
+    border: solid 4px #cca7de;
+    margin: 1vw;
+}
+.ft:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.galery{
+    margin-left: 15vw;
+    margin-right: 15vw;
+    column-count: 2;
+    overflow:visible;
+}
+.add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 7vw;
+    overflow: hidden;
+}
+.fto{
+    width: 15vw;
+    height: 15vw;
+}
+.fto:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+.carro{
+    width: 70vw;
+    height: 40vw;
+}
+
+header{
+    grid-area: header;
+    justify-content: center;
+}
+.logo{
+    height: 6vw;
+}
+.navbar{
+    grid-area: nav;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.a{
+    grid-area: a;
+    text-align: center;
+}
+.b{
+    grid-area: b;
+        text-align: center;
+}
+.c{
+    grid-area: c;
+        text-align: center;
+}
+.d{
+    grid-area: d;
+        text-align: center;
+}
+.menu{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    background-color: #f9f9f9;
+            height: 6vw;
+                position: fixed;
+                top: 0;
+                width: 100vw;
+                z-index: 5;
+}
+
+.dois{
+    height: 15vw;
+    position: fixed;
+    top: 0;
+    background-color: #f9f9f9;
+    width: 100vw;
+}
+.l1{
+    grid-area: logo;
+}
+main{
+    margin-top: 10vw;
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+.frm{
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+.tudo{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    background-color: #F4DDFF;
+}
+
+
+
+                                                        
+
+
+
+
+
+
+
